@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.cards-body {
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards-container{
+  display: flex;
+  
+}
+.cards{
+  margin: 20px 45px;
 }
