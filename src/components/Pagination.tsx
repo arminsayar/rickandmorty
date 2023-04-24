@@ -5,7 +5,7 @@ interface TabPanelProps {
     value: number;
 }
 function Paginations({ pages, activePage, setPage }: any) {
-    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    const handleChange = (newValue: any) => {
         setPage(newValue);
     };
     return (
